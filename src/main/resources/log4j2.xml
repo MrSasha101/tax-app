@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingFile name="RollingFile" fileName="logs/app.log"
+                     filePattern="logs/app-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+        <!-- Критичні помилки — окремий файл; email надсилає EmailSender.java -->
+        <RollingFile name="ErrorFile" fileName="logs/errors.log"
+                     filePattern="logs/errors-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n%xEx"/>
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="ErrorFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,113 @@
+2026-05-27 00:06:42.251 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 00:06:42.261 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 00:06:42.266 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 00:06:42.287 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 00:06:42.293 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 00:06:42.301 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 00:30:46.694 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 00:30:46.696 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 00:30:46.698 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 00:30:46.705 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 00:30:46.707 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 00:30:46.711 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 00:38:34.894 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 00:38:34.901 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 00:38:34.904 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 00:38:34.914 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 00:38:34.917 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 00:38:34.923 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 01:52:12.647 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 01:52:12.656 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 01:52:12.659 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 01:52:12.666 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 01:52:12.669 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 01:52:12.729 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 01:53:08.687 [email-sender] WARN  ua.lpnu.tax.util.EmailSender - Не вдалося надіслати email: Illegal address
+2026-05-27 01:53:10.820 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 01:53:10.821 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 01:53:10.823 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 01:53:10.834 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 01:53:10.838 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 01:53:10.842 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 01:57:47.938 [email-sender] WARN  ua.lpnu.tax.util.EmailSender - Не вдалося надіслати email: Illegal address
+2026-05-27 01:57:50.092 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 01:57:50.093 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 01:57:50.096 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 01:57:50.104 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 01:57:50.105 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 01:57:50.110 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 01:58:07.313 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Запуск Tax Management Application...
+2026-05-27 01:58:07.581 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Ініціалізація головного контролера
+2026-05-27 01:58:07.848 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Завантажено 2 платників
+2026-05-27 01:58:08.261 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Головне вікно відкрито.
+2026-05-27 01:58:11.330 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Відкриття діалогу додавання платника
+2026-05-27 02:00:23.945 [email-sender] WARN  ua.lpnu.tax.util.EmailSender - Не вдалося надіслати email: Illegal address
+2026-05-27 02:00:26.109 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 02:00:26.110 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 02:00:26.113 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 02:00:26.120 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:00:26.123 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 02:00:26.128 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 02:02:41.671 [email-sender] WARN  ua.lpnu.tax.util.EmailSender - Не вдалося надіслати email: Illegal address
+2026-05-27 02:02:43.737 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 02:02:43.738 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 02:02:43.739 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 02:02:43.744 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:02:43.747 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 02:02:43.750 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 02:02:43.876 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:05:00.421 [email-sender] WARN  ua.lpnu.tax.util.EmailSender - Не вдалося надіслати email: Illegal address
+2026-05-27 02:05:02.503 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 02:05:02.504 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 02:05:02.506 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 02:05:02.511 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:05:02.513 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 02:05:02.518 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 02:05:02.658 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:11:10.082 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 02:11:10.086 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 02:11:10.089 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 02:11:10.098 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:11:10.100 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 02:11:10.103 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 02:11:10.269 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:11:26.840 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 02:11:26.844 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 02:11:26.845 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 02:11:26.852 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:11:26.854 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 02:11:26.857 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 02:11:26.985 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:11:39.435 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 02:11:39.444 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 02:11:39.448 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 02:11:39.464 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:11:39.468 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 02:11:39.486 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 02:11:40.113 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:46:00.221 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Запуск Tax Management Application...
+2026-05-27 02:46:00.504 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Ініціалізація головного контролера
+2026-05-27 02:46:00.772 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Завантажено 2 платників
+2026-05-27 02:46:01.288 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Головне вікно відкрито.
+2026-05-27 02:47:13.278 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Завершення програми.
+2026-05-27 02:53:14.812 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=100000
+2026-05-27 02:53:14.821 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Дохід id=0 не оподатковується (ставка 0%)
+2026-05-27 02:53:14.822 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1486.00
+2026-05-27 02:53:14.828 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 02:53:14.830 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=0
+2026-05-27 02:53:14.835 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=1240.00
+2026-05-27 02:53:15.043 [main] INFO  ua.lpnu.tax.service.TaxCalculationService - Розрахунок податків: дохід id=0, база=10000
+2026-05-27 03:09:35.115 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Запуск Tax Management Application...
+2026-05-27 03:09:35.577 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Ініціалізація головного контролера
+2026-05-27 03:09:35.884 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Завантажено 2 платників
+2026-05-27 03:09:36.378 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Головне вікно відкрито.
+2026-05-27 03:11:38.635 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Запуск Tax Management Application...
+2026-05-27 03:11:38.976 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Ініціалізація головного контролера
+2026-05-27 03:11:39.207 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Завантажено 2 платників
+2026-05-27 03:11:39.681 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Головне вікно відкрито.
+2026-05-27 03:11:43.846 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Вибрано платника: Олег Анлрійович (id=3)
+2026-05-27 03:11:46.270 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.MainController - Відкриття вікна річного звіту для платника id=3
+2026-05-27 03:11:56.272 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.ReportController - Формування звіту: платник=Олег Анлрійович (id=3), рік=2026
+2026-05-27 03:11:56.877 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.ReportController - Звіт сформовано: дохід=134567.00, податки=24796.14
+2026-05-27 03:12:18.681 [JavaFX Application Thread] INFO  ua.lpnu.tax.controller.ReportController - Звіт збережено у файл: D:\tax_report1_2026.txt
+2026-05-27 03:16:21.359 [JavaFX Application Thread] INFO  ua.lpnu.tax.MainApp - Завершення програми.

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="ua.lpnu.tax.controller.TaxpayerDialogController"
+          hgap="10" vgap="10" style="-fx-padding: 20;">
+    <Label text="ПІБ:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtFullName" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <Label text="ІПН:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtTaxId" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Label text="Кількість дітей:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtChildrenCount" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Label text="Спец. статус:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <ComboBox fx:id="cmbSpecialStatus" GridPane.rowIndex="3" GridPane.columnIndex="1" prefWidth="200"/>
+
+    <HBox spacing="10" GridPane.rowIndex="4" GridPane.columnSpan="2" alignment="CENTER">
+        <Button text="Зберегти" onAction="#onSave"/>
+        <Button text="Скасувати" onAction="#onCancel"/>
+    </HBox>
+</GridPane>

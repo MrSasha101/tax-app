@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ua.lpnu.tax.controller.MainController">
+    <left>
+        <VBox spacing="10" style="-fx-padding: 10;">
+            <Label text="Платники податків:"/>
+            <ListView fx:id="taxpayerListView" prefWidth="250"/>
+            <HBox spacing="5">
+                <Button text="Додати" onAction="#onAddTaxpayer"/>
+                <Button text="Редагувати" onAction="#onEditTaxpayer"/>
+                <Button text="Видалити" onAction="#onDeleteTaxpayer"/>
+            </HBox>
+        </VBox>
+    </left>
+    <center>
+        <VBox spacing="10" style="-fx-padding: 10;">
+            <Label text="Доходи:"/>
+            <TableView fx:id="incomeTable">
+                <columns>
+                    <TableColumn fx:id="colSource" text="Джерело" prefWidth="150"/>
+                    <TableColumn fx:id="colAmount" text="Сума" prefWidth="100"/>
+                    <TableColumn fx:id="colDate" text="Дата" prefWidth="100"/>
+                </columns>
+            </TableView>
+            <HBox spacing="5">
+                <Button text="Додати дохід" onAction="#onAddIncome"/>
+                <Button text="Редагувати" onAction="#onEditIncome"/>
+                <Button text="Видалити" onAction="#onDeleteIncome"/>
+            </HBox>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox spacing="20" style="-fx-padding: 10;" alignment="CENTER_LEFT">
+            <Label text="Загальний дохід:"/>
+            <Label fx:id="lblTotalIncome" text="0.00" style="-fx-font-weight: bold;"/>
+            <Label text="Сума податків:"/>
+            <Label fx:id="lblTotalTax" text="0.00" style="-fx-font-weight: bold;"/>
+
+            <Pane HBox.hgrow="ALWAYS" />
+
+            <Button text="Річний звіт" onAction="#handleOpenReport" style="-fx-font-weight: bold; -fx-text-fill: #2c3e50;"/>
+        </HBox>
+    </bottom>
+</BorderPane>

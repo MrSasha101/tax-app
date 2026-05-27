@@ -1,0 +1,176 @@
+Folder PATH listing
+Volume serial number is 00000083 48C1:6F68
+C:.
+|   .gitignore
+|   pom.xml
+|   project_tree.txt
+|   
++---.idea
+|       .gitignore
+|       compiler.xml
+|       encodings.xml
+|       jarRepositories.xml
+|       misc.xml
+|       workspace.xml
+|       
++---.mvn
++---logs
+|       app-2026-05-26-1.log.gz
+|       app.log
+|       errors.log
+|       
++---src
+|   +---main
+|   |   +---java
+|   |   |   |   module-info.java
+|   |   |   |   
+|   |   |   \---ua
+|   |   |       \---lpnu
+|   |   |           \---tax
+|   |   |               |   MainApp.java
+|   |   |               |   
+|   |   |               +---controller
+|   |   |               |       IncomeDialogController.java
+|   |   |               |       MainController.java
+|   |   |               |       ReportController.java
+|   |   |               |       TaxpayerDialogController.java
+|   |   |               |       
+|   |   |               +---dao
+|   |   |               |       BenefitDao.java
+|   |   |               |       CrudDao.java
+|   |   |               |       DBConnection.java
+|   |   |               |       IncomeDao.java
+|   |   |               |       IncomeTypeDao.java
+|   |   |               |       TaxDao.java
+|   |   |               |       TaxpayerDao.java
+|   |   |               |       
+|   |   |               +---model
+|   |   |               |   |   Benefit.java
+|   |   |               |   |   IncomeType.java
+|   |   |               |   |   Taxpayer.java
+|   |   |               |   |   
+|   |   |               |   +---income
+|   |   |               |   |       AuthorRoyaltyIncome.java
+|   |   |               |   |       ForeignTransferIncome.java
+|   |   |               |   |       GiftIncome.java
+|   |   |               |   |       Income.java
+|   |   |               |   |       MaterialAidIncome.java
+|   |   |               |   |       PropertySaleIncome.java
+|   |   |               |   |       SalaryIncome.java
+|   |   |               |   |       
+|   |   |               |   \---tax
+|   |   |               |           MilitaryLevy.java
+|   |   |               |           PersonalIncomeTax.java
+|   |   |               |           Tax.java
+|   |   |               |           
+|   |   |               +---service
+|   |   |               |       TaxCalculationService.java
+|   |   |               |       
+|   |   |               \---util
+|   |   |                       EmailSender.java
+|   |   |                       
+|   |   \---resources
+|   |       |   db.properties
+|   |       |   log4j2.xml
+|   |       |   log4j2.xml.fxml
+|   |       |   
+|   |       \---fxml
+|   |               IncomeDialog.fxml
+|   |               MainView.fxml
+|   |               ReportView.fxml
+|   |               TaxpayerDialog.fxml
+|   |               
+|   \---test
+|       \---java
+|           \---ua
+|               \---lpnu
+|                   \---tax
+|                       +---model
+|                       |       IncomeTest.java
+|                       |       TaxpayerTest.java
+|                       |       
+|                       \---service
+|                               TaxCalculationServiceTest.java
+|                               
+\---target
+    +---classes
+    |   |   db.properties
+    |   |   log4j2.xml
+    |   |   log4j2.xml.fxml
+    |   |   module-info.class
+    |   |   
+    |   +---fxml
+    |   |       IncomeDialog.fxml
+    |   |       MainView.fxml
+    |   |       ReportView.fxml
+    |   |       TaxpayerDialog.fxml
+    |   |       
+    |   \---ua
+    |       \---lpnu
+    |           \---tax
+    |               |   MainApp.class
+    |               |   
+    |               +---controller
+    |               |       IncomeDialogController.class
+    |               |       MainController$1.class
+    |               |       MainController.class
+    |               |       ReportController.class
+    |               |       TaxpayerDialogController.class
+    |               |       
+    |               +---dao
+    |               |       BenefitDao.class
+    |               |       CrudDao.class
+    |               |       DBConnection.class
+    |               |       IncomeDao.class
+    |               |       IncomeTypeDao.class
+    |               |       TaxDao.class
+    |               |       TaxpayerDao.class
+    |               |       
+    |               +---model
+    |               |   |   Benefit.class
+    |               |   |   IncomeType.class
+    |               |   |   Taxpayer.class
+    |               |   |   
+    |               |   +---income
+    |               |   |       AuthorRoyaltyIncome.class
+    |               |   |       ForeignTransferIncome.class
+    |               |   |       GiftIncome.class
+    |               |   |       Income.class
+    |               |   |       MaterialAidIncome.class
+    |               |   |       PropertySaleIncome.class
+    |               |   |       SalaryIncome.class
+    |               |   |       
+    |               |   \---tax
+    |               |           MilitaryLevy.class
+    |               |           PersonalIncomeTax.class
+    |               |           Tax.class
+    |               |           
+    |               +---service
+    |               |       TaxCalculationService.class
+    |               |       
+    |               \---util
+    |                       EmailSender$1.class
+    |                       EmailSender.class
+    |                       
+    +---generated-sources
+    |   \---annotations
+    +---generated-test-sources
+    |   \---test-annotations
+    \---test-classes
+        \---ua
+            \---lpnu
+                \---tax
+                    +---model
+                    |       IncomeTest$AuthorRoyaltyIncomeTest.class
+                    |       IncomeTest$BenefitTest.class
+                    |       IncomeTest$ForeignTransferIncomeTest.class
+                    |       IncomeTest$GiftIncomeTest.class
+                    |       IncomeTest$MaterialAidIncomeTest.class
+                    |       IncomeTest$PropertySaleIncomeTest.class
+                    |       IncomeTest$SalaryIncomeTest.class
+                    |       IncomeTest.class
+                    |       TaxpayerTest.class
+                    |       
+                    \---service
+                            TaxCalculationServiceTest.class
+                            

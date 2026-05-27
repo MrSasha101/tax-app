@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingFile name="RollingFile" fileName="logs/app.log"
+                     filePattern="logs/app-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+        </RollingFile>
+        <SMTP name="EmailAlert"
+              to="admin@example.com"
+              from="app@example.com"
+              subject="[TaxApp] CRITICAL ERROR"
+              smtpHost="smtp.gmail.com"
+              smtpPort="587"
+              smtpUsername="${env:SMTP_USER}"
+              smtpPassword="${env:SMTP_PASS}">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <HtmlLayout/>
+        </SMTP>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="EmailAlert"/>
+        </Root>
+    </Loggers>
+</Configuration>

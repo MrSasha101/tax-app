@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ua.lpnu.tax.controller.ReportController"
+      spacing="10" style="-fx-padding: 16;">
+
+    <Label text="Зведений річний звіт" style="-fx-font-size: 15px; -fx-font-weight: bold;"/>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Платник:"/>
+        <ComboBox fx:id="cmbTaxpayer" prefWidth="250"/>
+        <Label text="Рік:"/>
+        <ComboBox fx:id="cmbYear" prefWidth="80"/>
+        <Button text="📊 Сформувати" onAction="#onGenerateReport" style="-fx-font-weight: bold;"/>
+        <Button text="💾 Зберегти у файл" onAction="#onSaveReport"/>
+    </HBox>
+
+    <HBox spacing="30">
+        <Label text="Загальний дохід:"/>
+        <Label fx:id="lblTotalIncome" text="—" style="-fx-font-weight: bold;"/>
+        <Label text="   Загальна сума податків:"/>
+        <Label fx:id="lblTotalTax" text="—" style="-fx-font-weight: bold; -fx-text-fill: #c0392b;"/>
+    </HBox>
+
+    <TextArea fx:id="reportArea" VBox.vgrow="ALWAYS"
+              editable="false" wrapText="false"
+              style="-fx-font-family: 'Courier New'; -fx-font-size: 13; -fx-background-color: #1e2433; -fx-text-fill: #d4e5ff;"/>
+</VBox>
